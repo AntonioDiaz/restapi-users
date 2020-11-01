@@ -33,6 +33,6 @@ import { V0MODELS } from './controllers/v0/model.index';
   // Start the Server
   app.listen( port, () => {
       console.log( `USERS SERVICE: server running http://localhost:${ port }` );
-      console.log( `press CTRL+C to stop server` );
+      console.log( `*press CTRL+C to stop server` );
   } );
 })();
